@@ -1,0 +1,29 @@
+.bgImage{
+    background-image: url(https://th.bing.com/th/id/R.3e9b9e6e51077cac2e4a76e73d719794?rik=kLvqsk4V7He0Gg&pid=ImgRaw&r=0);
+    width: 500px;
+    height: 500px;
+    background-position-x:center;
+    background-position-y:center;
+    background-size:cover;
+    color: black;
+}
+.title{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.paragraf{
+    font-size: 24px;
+}
+@media screen and (max-width: 768px) {
+.title{
+    font-size: 24px;
+    }
+    .paragraph{
+    font-size: 18px;
+    }
+    .bgImage{
+    width: 300px;
+    height: 150px;
+    color: brown;
+    }
+}

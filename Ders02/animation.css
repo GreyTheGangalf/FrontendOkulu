@@ -10,27 +10,51 @@ body{
     width: 100px;
     height: 100px;
     background-color: red;
-
+/* 
     animation-name: Kutucuk;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite; */
+    animation: Kutucuk 2s ease-in-out infinite;
+}
+.box1{
+    width : 250px;
+    height : 250px;
+    background-color: black;
+    animation: recep 5s ease-in-out  infinite ;
 }
 .box:hover{
     background-color: chartreuse;
 }
+.box1:hover{
+    background-color: crimson;
+}
 @keyframes Kutucuk {
     0%{
-        transform: translateX(0px);
+        transform: translateY(0px);
         background-color: red;
     }
     50%{
-        transform: translateX(200px);
+        transform: translateY(1100px);
         background-color: green;
     }
     100%{
-        transform: translateX(0px);
+        transform: translateY(0px);
         background-color: red;
+    }
+}
+@keyframes recep {
+    0%{
+        transform: translateX(0px) ;
+        background-color: black;
+    }
+    50%{
+        transform: translateX(1100px);
+        background-color: white;
+    }
+    100%{
+        transform: translateX(0px);
+        background-color: black;
     }
 }
 

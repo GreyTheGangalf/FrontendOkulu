@@ -1,0 +1,57 @@
+.link{
+    color: rgb(249, 126, 3);
+  }
+.link:active{
+    color: rgb(3, 249, 126);
+  }
+.link:visited{
+    color: #1100ff;
+  }
+.link:hover{
+    color: brown;
+  }
+.list_item{
+    color: red;
+    list-style-type:none;
+    font-size: 18px;
+  }
+/* .list_item:first-child{
+    color: aqua;
+  }
+.list_item:last-child{
+    color: violet;
+    }
+.list_item:nth-child(odd){
+    color: #00fbff;
+  }
+/* .list_item:nth-child(even) {
+    color: rgb(3, 101, 249);
+} */
+/* .list_item:nth-child(2){
+    color: blue;
+}
+.list_item:nth-child(-n+6){
+    color: #000000;
+} */ 
+/* Psuedo Element */
+/* .list_item::first-letter{
+    color: cadetblue;
+    font-size: 44px;
+} */
+/* p::first-letter {
+    color: rgb(3, 101, 249);
+    font-size: 24px;
+} */
+/* .text::first-line {
+    color: rgb(3, 101, 249);
+    font-size: 24px; */
+.text::after {
+        content: "Merhaba Ben Sona Eklendim!";
+        color: rgb(3, 101, 249);
+        font-size: 24px;
+}
+.text::before {
+        content: "Merhaba Ben Başa Eklendim!";
+        color: rgb(249, 126, 3);
+        font-size: 24px;
+}
