@@ -1,0 +1,16 @@
+{
+  "name": "ders02-scss",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass -w scss:css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.80.6"
+  },
+  "keywords": [],
+  "description": ""
+}
